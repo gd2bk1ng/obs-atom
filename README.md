@@ -1,6 +1,8 @@
 # OBS Atom
 
-OBS Atom is a lightweight, highly optimized streaming studio built for older or low-spec Linux systems. Stream to Twitch, YouTube, TikTok Live, and more at smooth 720p, even on a 2GB Aspire One.  
+OBS Atom - is a lightweight and highly optimized streaming studio built for older or low-spec Linux systems. 
+
+Stream to Twitch, YouTube, Instagram, Facebook and more at smooth 720p quality, even on a 2GB Aspire One. 
 
 **Features:**  
 - Auto-tune settings based on system hardware  
