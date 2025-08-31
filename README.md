@@ -1,4 +1,4 @@
-# OBS Atom ⚛️
+# ⚛️ OBS Atom
 
 OBS Atom - is a lightweight and highly optimized streaming studio built for older or low-spec Linux systems. 
 
