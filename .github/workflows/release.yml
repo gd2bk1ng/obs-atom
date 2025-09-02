@@ -1,0 +1,76 @@
+name: Build & Publish OBS-Atom
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up build deps
+        run: sudo apt-get update && sudo apt-get install -y build-essential devscripts debhelper dpkg-sig gnupg
+
+      - name: Build .deb
+        run: |
+          mkdir -p build
+          dpkg-deb --build debian/obs-atom build/obs-atom_${GITHUB_REF_NAME}_amd64.deb
+
+      - name: Upload .deb artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: obs-atom-deb
+          path: build/*.deb
+
+  release:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: obs-atom-deb
+          path: build
+
+      - name: Import GPG key
+        run: |
+          echo "$GPG_PRIVATE_KEY" | base64 -d | gpg --batch --import
+        env:
+          GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
+
+      - name: Sign .deb package
+        run: |
+          for deb in build/*.deb; do
+            dpkg-sig --sign builder -k "${{ secrets.GPG_KEY_ID }}" "$deb"
+          done
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: build/*.deb
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+
+      - name: Update apt repo
+        run: |
+          mkdir -p repo/pool/main/o/obs-atom
+          cp build/*.deb repo/pool/main/o/obs-atom/
+
+          cd repo
+          dpkg-scanpackages -m pool > dists/stable/main/binary-amd64/Packages
+          gzip -fk dists/stable/main/binary-amd64/Packages
+
+          apt-ftparchive release dists/stable > dists/stable/Release
+          gpg --default-key "${{ secrets.GPG_KEY_ID }}" -abs -o dists/stable/Release.gpg dists/stable/Release
+          gpg --default-key "${{ secrets.GPG_KEY_ID }}" --clearsign -o dists/stable/InRelease dists/stable/Release
+
+      - name: Push updated apt repo
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GH_TOKEN }}
+          publish_dir: ./repo
+          publish_branch: gh-pages
