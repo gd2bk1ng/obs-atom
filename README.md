@@ -8,6 +8,8 @@
 **Built for the creators of today — and the legends of tomorrow.**
 The first **fully decentralized, open-source, AI-powered content engine** designed by creators, for creators.
 
+![Image](https://github.com/user-attachments/assets/1f3e159b-c99e-476b-b1f4-03159c949336)
+
 ## 🚀 What is OBS-Atom?
 
 OBS-Atom is more than streaming software — it’s a **creative ecosystem**.  
@@ -95,7 +97,7 @@ Creators deserve more than algorithms and corporate lock-in.
 OBS-Atom is our red carpet rollout into the **next era of content** —  
 where creators control their tools, their revenue, and their future.  
 
-> **Welcome to the movement..👑 Welcome to OBS-Atom. # &#9883;**
+> **Welcome to the movement..👑 Welcome to OBS-Atom. &#9883;**
 
 [![Website](https://img.shields.io/badge/🌍_Website-Coming_Soon-blueviolet)](#) 
 [![Docs](https://img.shields.io/badge/📖_Documentation-in_progress-orange)](#)
