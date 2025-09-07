@@ -1,0 +1,8 @@
+============================================================
+OBS-Atom — So powerful, it can run on 1GB! - GD2BK1NG 👑
+============================================================
+Choose build mode:
+  1) lean  (ultra-lean for low-power machines)
+  2) enhanced  (full features)
+  3) auto  (script decides)
+Select [1/2/3]: 

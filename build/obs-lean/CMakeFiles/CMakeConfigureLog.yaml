@@ -1,0 +1,3424 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/gd2bk1ng/ffmpeg-install/bin/"
+      - "/home/gd2bk1ng/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+    searched_directories:
+      - "/home/gd2bk1ng/ffmpeg-install/bin/uname"
+      - "/home/gd2bk1ng/.local/bin/uname"
+      - "/usr/local/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/gd2bk1ng/ffmpeg-install/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/snap/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      The system is: Linux - 6.1.0-38-686 - i686
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/home/gd2bk1ng/ffmpeg-install/bin/"
+      - "/home/gd2bk1ng/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+    searched_directories:
+      - "/home/gd2bk1ng/ffmpeg-install/bin/gmake"
+      - "/home/gd2bk1ng/.local/bin/gmake"
+      - "/usr/local/bin/gmake"
+    found: "/usr/bin/gmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/gd2bk1ng/ffmpeg-install/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/snap/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "C compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cc"
+      - "gcc"
+      - "cl"
+      - "bcc"
+      - "xlc"
+      - "icx"
+      - "clang"
+    candidate_directories:
+      - "/home/gd2bk1ng/ffmpeg-install/bin/"
+      - "/home/gd2bk1ng/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+    searched_directories:
+      - "/home/gd2bk1ng/ffmpeg-install/bin/cc"
+      - "/home/gd2bk1ng/.local/bin/cc"
+      - "/usr/local/bin/cc"
+    found: "/usr/bin/cc"
+    search_context:
+      ENV{PATH}:
+        - "/home/gd2bk1ng/ffmpeg-install/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/snap/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/"
+      - "/home/gd2bk1ng/obs-atom-build/obs/cmake/common/"
+      - "/home/gd2bk1ng/obs-atom-build/obs/cmake/finders/"
+      - "/home/gd2bk1ng/obs-atom-build/obs/cmake/linux/"
+    found: "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/gd2bk1ng/ffmpeg-install/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/snap/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/4.1.0/CompilerIdC/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/gd2bk1ng/ffmpeg-install/bin/"
+      - "/home/gd2bk1ng/.local/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/gd2bk1ng/ffmpeg-install/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/snap/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/gd2bk1ng/ffmpeg-install/bin/"
+      - "/home/gd2bk1ng/.local/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/gd2bk1ng/ffmpeg-install/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/snap/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/gd2bk1ng/ffmpeg-install/bin/"
+      - "/home/gd2bk1ng/.local/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/home/gd2bk1ng/ffmpeg-install/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/snap/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/gd2bk1ng/ffmpeg-install/bin/"
+      - "/home/gd2bk1ng/.local/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/home/gd2bk1ng/ffmpeg-install/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/snap/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/gd2bk1ng/ffmpeg-install/bin/"
+      - "/home/gd2bk1ng/.local/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/home/gd2bk1ng/ffmpeg-install/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/snap/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/gd2bk1ng/ffmpeg-install/bin/"
+      - "/home/gd2bk1ng/.local/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/home/gd2bk1ng/ffmpeg-install/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/snap/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/gd2bk1ng/ffmpeg-install/bin/"
+      - "/home/gd2bk1ng/.local/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+    found: "/usr/bin/objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/home/gd2bk1ng/ffmpeg-install/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/snap/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/gd2bk1ng/ffmpeg-install/bin/"
+      - "/home/gd2bk1ng/.local/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+    found: "/usr/bin/readelf"
+    search_context:
+      ENV{PATH}:
+        - "/home/gd2bk1ng/ffmpeg-install/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/snap/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/gd2bk1ng/ffmpeg-install/bin/"
+      - "/home/gd2bk1ng/.local/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+    searched_directories:
+      - "/usr/bin/dlltool"
+      - "/home/gd2bk1ng/ffmpeg-install/bin/dlltool"
+      - "/home/gd2bk1ng/.local/bin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/local/games/dlltool"
+      - "/usr/games/dlltool"
+      - "/snap/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/sbin/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/gd2bk1ng/ffmpeg-install/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/snap/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/gd2bk1ng/ffmpeg-install/bin/"
+      - "/home/gd2bk1ng/.local/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+    found: "/usr/bin/addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/home/gd2bk1ng/ffmpeg-install/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/snap/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/gd2bk1ng/ffmpeg-install/bin/"
+      - "/home/gd2bk1ng/.local/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+    searched_directories:
+      - "/usr/bin/tapi"
+      - "/home/gd2bk1ng/ffmpeg-install/bin/tapi"
+      - "/home/gd2bk1ng/.local/bin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/bin/tapi"
+      - "/usr/local/games/tapi"
+      - "/usr/games/tapi"
+      - "/snap/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/sbin/tapi"
+      - "/sbin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/gd2bk1ng/ffmpeg-install/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/snap/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-12.2"
+      - "gcc-ar-12"
+      - "gcc-ar12"
+      - "gcc-ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/gd2bk1ng/ffmpeg-install/bin/"
+      - "/home/gd2bk1ng/.local/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+    searched_directories:
+      - "/usr/bin/gcc-ar-12.2"
+      - "/home/gd2bk1ng/ffmpeg-install/bin/gcc-ar-12.2"
+      - "/home/gd2bk1ng/.local/bin/gcc-ar-12.2"
+      - "/usr/local/bin/gcc-ar-12.2"
+      - "/bin/gcc-ar-12.2"
+      - "/usr/local/games/gcc-ar-12.2"
+      - "/usr/games/gcc-ar-12.2"
+      - "/snap/bin/gcc-ar-12.2"
+      - "/usr/local/sbin/gcc-ar-12.2"
+      - "/usr/sbin/gcc-ar-12.2"
+      - "/sbin/gcc-ar-12.2"
+    found: "/usr/bin/gcc-ar-12"
+    search_context:
+      ENV{PATH}:
+        - "/home/gd2bk1ng/ffmpeg-install/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/snap/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-12.2"
+      - "gcc-ranlib-12"
+      - "gcc-ranlib12"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/gd2bk1ng/ffmpeg-install/bin/"
+      - "/home/gd2bk1ng/.local/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+    searched_directories:
+      - "/usr/bin/gcc-ranlib-12.2"
+      - "/home/gd2bk1ng/ffmpeg-install/bin/gcc-ranlib-12.2"
+      - "/home/gd2bk1ng/.local/bin/gcc-ranlib-12.2"
+      - "/usr/local/bin/gcc-ranlib-12.2"
+      - "/bin/gcc-ranlib-12.2"
+      - "/usr/local/games/gcc-ranlib-12.2"
+      - "/usr/games/gcc-ranlib-12.2"
+      - "/snap/bin/gcc-ranlib-12.2"
+      - "/usr/local/sbin/gcc-ranlib-12.2"
+      - "/usr/sbin/gcc-ranlib-12.2"
+      - "/sbin/gcc-ranlib-12.2"
+    found: "/usr/bin/gcc-ranlib-12"
+    search_context:
+      ENV{PATH}:
+        - "/home/gd2bk1ng/ffmpeg-install/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/snap/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "CC"
+      - "g++"
+      - "aCC"
+      - "cl"
+      - "bcc"
+      - "xlC"
+      - "icpx"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "/usr/bin/"
+    found: "/usr/bin/c++"
+    search_context:
+      ENV{PATH}:
+        - "/home/gd2bk1ng/ffmpeg-install/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/snap/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/"
+      - "/home/gd2bk1ng/obs-atom-build/obs/cmake/common/"
+      - "/home/gd2bk1ng/obs-atom-build/obs/cmake/finders/"
+      - "/home/gd2bk1ng/obs-atom-build/obs/cmake/linux/"
+    found: "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/gd2bk1ng/ffmpeg-install/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/snap/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/4.1.0/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-12.2"
+      - "gcc-ar-12"
+      - "gcc-ar12"
+      - "gcc-ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/gd2bk1ng/ffmpeg-install/bin/"
+      - "/home/gd2bk1ng/.local/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+    searched_directories:
+      - "/usr/bin/gcc-ar-12.2"
+      - "/home/gd2bk1ng/ffmpeg-install/bin/gcc-ar-12.2"
+      - "/home/gd2bk1ng/.local/bin/gcc-ar-12.2"
+      - "/usr/local/bin/gcc-ar-12.2"
+      - "/bin/gcc-ar-12.2"
+      - "/usr/local/games/gcc-ar-12.2"
+      - "/usr/games/gcc-ar-12.2"
+      - "/snap/bin/gcc-ar-12.2"
+      - "/usr/local/sbin/gcc-ar-12.2"
+      - "/usr/sbin/gcc-ar-12.2"
+      - "/sbin/gcc-ar-12.2"
+    found: "/usr/bin/gcc-ar-12"
+    search_context:
+      ENV{PATH}:
+        - "/home/gd2bk1ng/ffmpeg-install/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/snap/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-12.2"
+      - "gcc-ranlib-12"
+      - "gcc-ranlib12"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/gd2bk1ng/ffmpeg-install/bin/"
+      - "/home/gd2bk1ng/.local/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+    searched_directories:
+      - "/usr/bin/gcc-ranlib-12.2"
+      - "/home/gd2bk1ng/ffmpeg-install/bin/gcc-ranlib-12.2"
+      - "/home/gd2bk1ng/.local/bin/gcc-ranlib-12.2"
+      - "/usr/local/bin/gcc-ranlib-12.2"
+      - "/bin/gcc-ranlib-12.2"
+      - "/usr/local/games/gcc-ranlib-12.2"
+      - "/usr/games/gcc-ranlib-12.2"
+      - "/snap/bin/gcc-ranlib-12.2"
+      - "/usr/local/sbin/gcc-ranlib-12.2"
+      - "/usr/sbin/gcc-ranlib-12.2"
+      - "/sbin/gcc-ranlib-12.2"
+    found: "/usr/bin/gcc-ranlib-12"
+    search_context:
+      ENV{PATH}:
+        - "/home/gd2bk1ng/ffmpeg-install/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/snap/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/CMakeScratch/TryCompile-aOrcHO"
+      binary: "/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/CMakeScratch/TryCompile-aOrcHO"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/gd2bk1ng/obs-atom-build/obs/cmake/common;/home/gd2bk1ng/obs-atom-build/obs/cmake/finders;/home/gd2bk1ng/obs-atom-build/obs/cmake/linux"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/CMakeScratch/TryCompile-aOrcHO'
+        
+        Run Build Command(s): /home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_84820/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_84820.dir/build.make CMakeFiles/cmTC_84820.dir/build
+        gmake[1]: Entering directory '/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/CMakeScratch/TryCompile-aOrcHO'
+        Building C object CMakeFiles/cmTC_84820.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_84820.dir/CMakeCCompilerABI.c.o -c /home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        Target: i686-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14+deb12u1' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=i686-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 12.2.0 (Debian 12.2.0-14+deb12u1) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_84820.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=i686' '-dumpdir' 'CMakeFiles/cmTC_84820.dir/'
+         /usr/lib/gcc/i686-linux-gnu/12/cc1 -quiet -v -imultiarch i386-linux-gnu /home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_84820.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=i686 -version -fasynchronous-unwind-tables -o /tmp/cc2yG8Tp.s
+        GNU C17 (Debian 12.2.0-14+deb12u1) version 12.2.0 (i686-linux-gnu)
+        	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version isl-0.25-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/i386-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/i686-linux-gnu/12/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/i686-linux-gnu/12/../../../../i686-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/i686-linux-gnu/12/include
+         /usr/local/include
+         /usr/include/i386-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C17 (Debian 12.2.0-14+deb12u1) version 12.2.0 (i686-linux-gnu)
+        	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version isl-0.25-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: e5bd2e36b3dc4448dfbfa7e4db1e2e7e
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_84820.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=i686' '-dumpdir' 'CMakeFiles/cmTC_84820.dir/'
+         as -v --32 -o CMakeFiles/cmTC_84820.dir/CMakeCCompilerABI.c.o /tmp/cc2yG8Tp.s
+        GNU assembler version 2.40 (i686-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40
+        COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/12/:/usr/lib/gcc/i686-linux-gnu/12/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/12/:/usr/lib/gcc/i686-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/12/:/usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/12/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/12/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_84820.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=i686' '-dumpdir' 'CMakeFiles/cmTC_84820.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_84820
+        /home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84820.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/12/lto-wrapper
+        Target: i686-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14+deb12u1' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=i686-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 12.2.0 (Debian 12.2.0-14+deb12u1) 
+        COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/12/:/usr/lib/gcc/i686-linux-gnu/12/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/12/:/usr/lib/gcc/i686-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/12/:/usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/12/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/12/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_84820' '-mtune=generic' '-march=i686' '-dumpdir' 'cmTC_84820.'
+         /usr/lib/gcc/i686-linux-gnu/12/collect2 -plugin /usr/lib/gcc/i686-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxMKaeR.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux.so.2 -pie -o cmTC_84820 /usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/Scrt1.o /usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/i686-linux-gnu/12 -L/usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/12/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/12/../../.. -v CMakeFiles/cmTC_84820.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/i686-linux-gnu/12/crtendS.o /usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/crtn.o
+        collect2 version 12.2.0
+        /usr/bin/ld -plugin /usr/lib/gcc/i686-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxMKaeR.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux.so.2 -pie -o cmTC_84820 /usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/Scrt1.o /usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/i686-linux-gnu/12 -L/usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/12/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/12/../../.. -v CMakeFiles/cmTC_84820.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/i686-linux-gnu/12/crtendS.o /usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Debian) 2.40
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_84820' '-mtune=generic' '-march=i686' '-dumpdir' 'cmTC_84820.'
+        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_84820.dir/CMakeCCompilerABI.c.o -o cmTC_84820
+        gmake[1]: Leaving directory '/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/CMakeScratch/TryCompile-aOrcHO'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/i686-linux-gnu/12/include]
+          add: [/usr/local/include]
+          add: [/usr/include/i386-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/i686-linux-gnu/12/include] ==> [/usr/lib/gcc/i686-linux-gnu/12/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/i386-linux-gnu] ==> [/usr/include/i386-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/i686-linux-gnu/12/include;/usr/local/include;/usr/include/i386-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/CMakeScratch/TryCompile-aOrcHO']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_84820/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_84820.dir/build.make CMakeFiles/cmTC_84820.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/CMakeScratch/TryCompile-aOrcHO']
+        ignore line: [Building C object CMakeFiles/cmTC_84820.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_84820.dir/CMakeCCompilerABI.c.o -c /home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [Target: i686-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14+deb12u1' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=i686-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 12.2.0 (Debian 12.2.0-14+deb12u1) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_84820.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=i686' '-dumpdir' 'CMakeFiles/cmTC_84820.dir/']
+        ignore line: [ /usr/lib/gcc/i686-linux-gnu/12/cc1 -quiet -v -imultiarch i386-linux-gnu /home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_84820.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=i686 -version -fasynchronous-unwind-tables -o /tmp/cc2yG8Tp.s]
+        ignore line: [GNU C17 (Debian 12.2.0-14+deb12u1) version 12.2.0 (i686-linux-gnu)]
+        ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.2.0  MPC version 1.3.1  isl version isl-0.25-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/i386-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/i686-linux-gnu/12/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/i686-linux-gnu/12/../../../../i686-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/i686-linux-gnu/12/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/i386-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (Debian 12.2.0-14+deb12u1) version 12.2.0 (i686-linux-gnu)]
+        ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.2.0  MPC version 1.3.1  isl version isl-0.25-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: e5bd2e36b3dc4448dfbfa7e4db1e2e7e]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_84820.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=i686' '-dumpdir' 'CMakeFiles/cmTC_84820.dir/']
+        ignore line: [ as -v --32 -o CMakeFiles/cmTC_84820.dir/CMakeCCompilerABI.c.o /tmp/cc2yG8Tp.s]
+        ignore line: [GNU assembler version 2.40 (i686-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/12/:/usr/lib/gcc/i686-linux-gnu/12/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/12/:/usr/lib/gcc/i686-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/12/:/usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/12/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/12/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_84820.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=i686' '-dumpdir' 'CMakeFiles/cmTC_84820.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_84820]
+        ignore line: [/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84820.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/12/lto-wrapper]
+        ignore line: [Target: i686-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14+deb12u1' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=i686-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 12.2.0 (Debian 12.2.0-14+deb12u1) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/12/:/usr/lib/gcc/i686-linux-gnu/12/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/12/:/usr/lib/gcc/i686-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/12/:/usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/12/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/12/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_84820' '-mtune=generic' '-march=i686' '-dumpdir' 'cmTC_84820.']
+        link line: [ /usr/lib/gcc/i686-linux-gnu/12/collect2 -plugin /usr/lib/gcc/i686-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxMKaeR.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux.so.2 -pie -o cmTC_84820 /usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/Scrt1.o /usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/i686-linux-gnu/12 -L/usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/12/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/12/../../.. -v CMakeFiles/cmTC_84820.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/i686-linux-gnu/12/crtendS.o /usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/i686-linux-gnu/12/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/i686-linux-gnu/12/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/i686-linux-gnu/12/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccxMKaeR.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_i386] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-linux.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_84820] ==> ignore
+          arg [/usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/i686-linux-gnu/12/crtbeginS.o] ==> obj [/usr/lib/gcc/i686-linux-gnu/12/crtbeginS.o]
+          arg [-L/usr/lib/gcc/i686-linux-gnu/12] ==> dir [/usr/lib/gcc/i686-linux-gnu/12]
+          arg [-L/usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu] ==> dir [/usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu]
+          arg [-L/usr/lib/gcc/i686-linux-gnu/12/../../../../lib] ==> dir [/usr/lib/gcc/i686-linux-gnu/12/../../../../lib]
+          arg [-L/lib/i386-linux-gnu] ==> dir [/lib/i386-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/i386-linux-gnu] ==> dir [/usr/lib/i386-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/i686-linux-gnu/12/../../..] ==> dir [/usr/lib/gcc/i686-linux-gnu/12/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_84820.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/i686-linux-gnu/12/crtendS.o] ==> obj [/usr/lib/gcc/i686-linux-gnu/12/crtendS.o]
+          arg [/usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/crtn.o]
+        ignore line: [collect2 version 12.2.0]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/i686-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxMKaeR.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux.so.2 -pie -o cmTC_84820 /usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/Scrt1.o /usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/i686-linux-gnu/12 -L/usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/12/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/12/../../.. -v CMakeFiles/cmTC_84820.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/i686-linux-gnu/12/crtendS.o /usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/crtn.o]
+        linker tool for 'C': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/Scrt1.o] ==> [/usr/lib/i386-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/crti.o] ==> [/usr/lib/i386-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/crtn.o] ==> [/usr/lib/i386-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/i686-linux-gnu/12] ==> [/usr/lib/gcc/i686-linux-gnu/12]
+        collapse library dir [/usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+        collapse library dir [/usr/lib/gcc/i686-linux-gnu/12/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/i386-linux-gnu] ==> [/lib/i386-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/i686-linux-gnu/12/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/i386-linux-gnu/Scrt1.o;/usr/lib/i386-linux-gnu/crti.o;/usr/lib/gcc/i686-linux-gnu/12/crtbeginS.o;/usr/lib/gcc/i686-linux-gnu/12/crtendS.o;/usr/lib/i386-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/i686-linux-gnu/12;/usr/lib/i386-linux-gnu;/usr/lib;/lib/i386-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Running the C compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Debian) 2.40
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/CMakeScratch/TryCompile-Z4KxFJ"
+      binary: "/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/CMakeScratch/TryCompile-Z4KxFJ"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/gd2bk1ng/obs-atom-build/obs/cmake/common;/home/gd2bk1ng/obs-atom-build/obs/cmake/finders;/home/gd2bk1ng/obs-atom-build/obs/cmake/linux"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/CMakeScratch/TryCompile-Z4KxFJ'
+        
+        Run Build Command(s): /home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_82188/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_82188.dir/build.make CMakeFiles/cmTC_82188.dir/build
+        gmake[1]: Entering directory '/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/CMakeScratch/TryCompile-Z4KxFJ'
+        Building CXX object CMakeFiles/cmTC_82188.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -std=c++17   -v -o CMakeFiles/cmTC_82188.dir/CMakeCXXCompilerABI.cpp.o -c /home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        Target: i686-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14+deb12u1' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=i686-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 12.2.0 (Debian 12.2.0-14+deb12u1) 
+        COLLECT_GCC_OPTIONS='-std=c++17' '-v' '-o' 'CMakeFiles/cmTC_82188.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686' '-dumpdir' 'CMakeFiles/cmTC_82188.dir/'
+         /usr/lib/gcc/i686-linux-gnu/12/cc1plus -quiet -v -imultiarch i386-linux-gnu -D_GNU_SOURCE /home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_82188.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=i686 -std=c++17 -version -fasynchronous-unwind-tables -o /tmp/cc1cv0z7.s
+        GNU C++17 (Debian 12.2.0-14+deb12u1) version 12.2.0 (i686-linux-gnu)
+        	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version isl-0.25-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/i386-linux-gnu/c++/12"
+        ignoring nonexistent directory "/usr/local/include/i386-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/i686-linux-gnu/12/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/i686-linux-gnu/12/../../../../i686-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/12
+         /usr/include/i386-linux-gnu/c++/12
+         /usr/include/c++/12/backward
+         /usr/lib/gcc/i686-linux-gnu/12/include
+         /usr/local/include
+         /usr/include/i386-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C++17 (Debian 12.2.0-14+deb12u1) version 12.2.0 (i686-linux-gnu)
+        	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version isl-0.25-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: c5a89f1e34ee91426a90c3971274c206
+        COLLECT_GCC_OPTIONS='-std=c++17' '-v' '-o' 'CMakeFiles/cmTC_82188.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686' '-dumpdir' 'CMakeFiles/cmTC_82188.dir/'
+         as -v --32 -o CMakeFiles/cmTC_82188.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc1cv0z7.s
+        GNU assembler version 2.40 (i686-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40
+        COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/12/:/usr/lib/gcc/i686-linux-gnu/12/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/12/:/usr/lib/gcc/i686-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/12/:/usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/12/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/12/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-std=c++17' '-v' '-o' 'CMakeFiles/cmTC_82188.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686' '-dumpdir' 'CMakeFiles/cmTC_82188.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_82188
+        /home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82188.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/12/lto-wrapper
+        Target: i686-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14+deb12u1' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=i686-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 12.2.0 (Debian 12.2.0-14+deb12u1) 
+        COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/12/:/usr/lib/gcc/i686-linux-gnu/12/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/12/:/usr/lib/gcc/i686-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/12/:/usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/12/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/12/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_82188' '-shared-libgcc' '-mtune=generic' '-march=i686' '-dumpdir' 'cmTC_82188.'
+         /usr/lib/gcc/i686-linux-gnu/12/collect2 -plugin /usr/lib/gcc/i686-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8Z5lUS.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux.so.2 -pie -o cmTC_82188 /usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/Scrt1.o /usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/i686-linux-gnu/12 -L/usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/12/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/12/../../.. -v CMakeFiles/cmTC_82188.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i686-linux-gnu/12/crtendS.o /usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/crtn.o
+        collect2 version 12.2.0
+        /usr/bin/ld -plugin /usr/lib/gcc/i686-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8Z5lUS.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux.so.2 -pie -o cmTC_82188 /usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/Scrt1.o /usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/i686-linux-gnu/12 -L/usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/12/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/12/../../.. -v CMakeFiles/cmTC_82188.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i686-linux-gnu/12/crtendS.o /usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Debian) 2.40
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_82188' '-shared-libgcc' '-mtune=generic' '-march=i686' '-dumpdir' 'cmTC_82188.'
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_82188.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_82188
+        gmake[1]: Leaving directory '/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/CMakeScratch/TryCompile-Z4KxFJ'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/12]
+          add: [/usr/include/i386-linux-gnu/c++/12]
+          add: [/usr/include/c++/12/backward]
+          add: [/usr/lib/gcc/i686-linux-gnu/12/include]
+          add: [/usr/local/include]
+          add: [/usr/include/i386-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/12] ==> [/usr/include/c++/12]
+        collapse include dir [/usr/include/i386-linux-gnu/c++/12] ==> [/usr/include/i386-linux-gnu/c++/12]
+        collapse include dir [/usr/include/c++/12/backward] ==> [/usr/include/c++/12/backward]
+        collapse include dir [/usr/lib/gcc/i686-linux-gnu/12/include] ==> [/usr/lib/gcc/i686-linux-gnu/12/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/i386-linux-gnu] ==> [/usr/include/i386-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/12;/usr/include/i386-linux-gnu/c++/12;/usr/include/c++/12/backward;/usr/lib/gcc/i686-linux-gnu/12/include;/usr/local/include;/usr/include/i386-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/CMakeScratch/TryCompile-Z4KxFJ']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_82188/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_82188.dir/build.make CMakeFiles/cmTC_82188.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/CMakeScratch/TryCompile-Z4KxFJ']
+        ignore line: [Building CXX object CMakeFiles/cmTC_82188.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -std=c++17   -v -o CMakeFiles/cmTC_82188.dir/CMakeCXXCompilerABI.cpp.o -c /home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [Target: i686-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14+deb12u1' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=i686-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 12.2.0 (Debian 12.2.0-14+deb12u1) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-std=c++17' '-v' '-o' 'CMakeFiles/cmTC_82188.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686' '-dumpdir' 'CMakeFiles/cmTC_82188.dir/']
+        ignore line: [ /usr/lib/gcc/i686-linux-gnu/12/cc1plus -quiet -v -imultiarch i386-linux-gnu -D_GNU_SOURCE /home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_82188.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=i686 -std=c++17 -version -fasynchronous-unwind-tables -o /tmp/cc1cv0z7.s]
+        ignore line: [GNU C++17 (Debian 12.2.0-14+deb12u1) version 12.2.0 (i686-linux-gnu)]
+        ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.2.0  MPC version 1.3.1  isl version isl-0.25-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/i386-linux-gnu/c++/12"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/i386-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/i686-linux-gnu/12/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/i686-linux-gnu/12/../../../../i686-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/12]
+        ignore line: [ /usr/include/i386-linux-gnu/c++/12]
+        ignore line: [ /usr/include/c++/12/backward]
+        ignore line: [ /usr/lib/gcc/i686-linux-gnu/12/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/i386-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (Debian 12.2.0-14+deb12u1) version 12.2.0 (i686-linux-gnu)]
+        ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.2.0  MPC version 1.3.1  isl version isl-0.25-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: c5a89f1e34ee91426a90c3971274c206]
+        ignore line: [COLLECT_GCC_OPTIONS='-std=c++17' '-v' '-o' 'CMakeFiles/cmTC_82188.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686' '-dumpdir' 'CMakeFiles/cmTC_82188.dir/']
+        ignore line: [ as -v --32 -o CMakeFiles/cmTC_82188.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc1cv0z7.s]
+        ignore line: [GNU assembler version 2.40 (i686-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/12/:/usr/lib/gcc/i686-linux-gnu/12/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/12/:/usr/lib/gcc/i686-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/12/:/usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/12/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/12/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-std=c++17' '-v' '-o' 'CMakeFiles/cmTC_82188.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686' '-dumpdir' 'CMakeFiles/cmTC_82188.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_82188]
+        ignore line: [/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82188.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/12/lto-wrapper]
+        ignore line: [Target: i686-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14+deb12u1' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=i686-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 12.2.0 (Debian 12.2.0-14+deb12u1) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/12/:/usr/lib/gcc/i686-linux-gnu/12/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/12/:/usr/lib/gcc/i686-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/12/:/usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/12/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/12/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_82188' '-shared-libgcc' '-mtune=generic' '-march=i686' '-dumpdir' 'cmTC_82188.']
+        link line: [ /usr/lib/gcc/i686-linux-gnu/12/collect2 -plugin /usr/lib/gcc/i686-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8Z5lUS.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux.so.2 -pie -o cmTC_82188 /usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/Scrt1.o /usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/i686-linux-gnu/12 -L/usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/12/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/12/../../.. -v CMakeFiles/cmTC_82188.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i686-linux-gnu/12/crtendS.o /usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/i686-linux-gnu/12/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/i686-linux-gnu/12/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/i686-linux-gnu/12/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc8Z5lUS.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_i386] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-linux.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_82188] ==> ignore
+          arg [/usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/i686-linux-gnu/12/crtbeginS.o] ==> obj [/usr/lib/gcc/i686-linux-gnu/12/crtbeginS.o]
+          arg [-L/usr/lib/gcc/i686-linux-gnu/12] ==> dir [/usr/lib/gcc/i686-linux-gnu/12]
+          arg [-L/usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu] ==> dir [/usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu]
+          arg [-L/usr/lib/gcc/i686-linux-gnu/12/../../../../lib] ==> dir [/usr/lib/gcc/i686-linux-gnu/12/../../../../lib]
+          arg [-L/lib/i386-linux-gnu] ==> dir [/lib/i386-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/i386-linux-gnu] ==> dir [/usr/lib/i386-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/i686-linux-gnu/12/../../..] ==> dir [/usr/lib/gcc/i686-linux-gnu/12/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_82188.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/i686-linux-gnu/12/crtendS.o] ==> obj [/usr/lib/gcc/i686-linux-gnu/12/crtendS.o]
+          arg [/usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/crtn.o]
+        ignore line: [collect2 version 12.2.0]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/i686-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8Z5lUS.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux.so.2 -pie -o cmTC_82188 /usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/Scrt1.o /usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/i686-linux-gnu/12 -L/usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/12/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/12/../../.. -v CMakeFiles/cmTC_82188.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i686-linux-gnu/12/crtendS.o /usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/Scrt1.o] ==> [/usr/lib/i386-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/crti.o] ==> [/usr/lib/i386-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu/crtn.o] ==> [/usr/lib/i386-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/i686-linux-gnu/12] ==> [/usr/lib/gcc/i686-linux-gnu/12]
+        collapse library dir [/usr/lib/gcc/i686-linux-gnu/12/../../../i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+        collapse library dir [/usr/lib/gcc/i686-linux-gnu/12/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/i386-linux-gnu] ==> [/lib/i386-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/i686-linux-gnu/12/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/i386-linux-gnu/Scrt1.o;/usr/lib/i386-linux-gnu/crti.o;/usr/lib/gcc/i686-linux-gnu/12/crtbeginS.o;/usr/lib/gcc/i686-linux-gnu/12/crtendS.o;/usr/lib/i386-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/i686-linux-gnu/12;/usr/lib/i386-linux-gnu;/usr/lib;/lib/i386-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Debian) 2.40
+  -
+    kind: "find-v1"
+    backtrace:
+      - "cmake/common/ccache.cmake:7 (find_program)"
+      - "cmake/linux/compilerconfig.cmake:5 (include)"
+      - "CMakeLists.txt:14 (include)"
+    mode: "program"
+    variable: "CCACHE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ccache"
+    candidate_directories:
+      - "/home/gd2bk1ng/ffmpeg-install/bin/"
+      - "/home/gd2bk1ng/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/bin/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/sbin/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/bin/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/sbin/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/home/gd2bk1ng/ffmpeg-install/bin/ccache"
+      - "/home/gd2bk1ng/.local/bin/ccache"
+      - "/usr/local/bin/ccache"
+      - "/usr/bin/ccache"
+      - "/bin/ccache"
+      - "/usr/local/games/ccache"
+      - "/usr/games/ccache"
+      - "/snap/bin/ccache"
+      - "/usr/local/sbin/ccache"
+      - "/usr/sbin/ccache"
+      - "/sbin/ccache"
+      - "/usr/local/bin/ccache"
+      - "/usr/local/sbin/ccache"
+      - "/usr/local/ccache"
+      - "/usr/bin/ccache"
+      - "/usr/sbin/ccache"
+      - "/usr/ccache"
+      - "/bin/ccache"
+      - "/sbin/ccache"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/bin/ccache"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/sbin/ccache"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/ccache"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/bin/ccache"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/sbin/ccache"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/ccache"
+      - "/usr/X11R6/bin/ccache"
+      - "/usr/X11R6/sbin/ccache"
+      - "/usr/X11R6/ccache"
+      - "/usr/pkg/bin/ccache"
+      - "/usr/pkg/sbin/ccache"
+      - "/usr/pkg/ccache"
+      - "/opt/bin/ccache"
+      - "/opt/sbin/ccache"
+      - "/opt/ccache"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/gd2bk1ng/ffmpeg-install/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/snap/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data"
+        - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CheckIPOSupported.cmake:197 (try_compile)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CheckIPOSupported.cmake:320 (_ipo_run_language_check)"
+      - "cmake/common/compiler_common.cmake:93 (check_ipo_supported)"
+      - "cmake/linux/compilerconfig.cmake:6 (include)"
+      - "CMakeLists.txt:14 (include)"
+    directories:
+      source: "/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-CXX/src"
+      binary: "/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-CXX/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        
+        Run Build Command(s): /home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile
+        /home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/bin/cmake -S/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-CXX/src -B/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-CXX/bin --check-build-system CMakeFiles/Makefile.cmake 0
+        /home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/bin/cmake -E cmake_progress_start /home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles /home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-CXX/bin//CMakeFiles/progress.marks
+        /usr/bin/gmake  -f CMakeFiles/Makefile2 all
+        gmake[1]: Entering directory '/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        /usr/bin/gmake  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/depend
+        gmake[2]: Entering directory '/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        cd /home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-CXX/bin && /home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/bin/cmake -E cmake_depends "Unix Makefiles" /home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-CXX/src /home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-CXX/src /home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-CXX/bin /home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-CXX/bin /home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/DependInfo.cmake
+        Dependee "/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/DependInfo.cmake" is newer than depender "/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/depend.internal".
+        Dependee "/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir/depend.internal".
+        Scanning dependencies of target foo
+        gmake[2]: Leaving directory '/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        /usr/bin/gmake  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/build
+        gmake[2]: Entering directory '/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        [ 25%] Building CXX object CMakeFiles/foo.dir/foo.cpp.o
+        /usr/bin/c++   -g -flto=auto -fno-fat-lto-objects -o CMakeFiles/foo.dir/foo.cpp.o -c /home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp
+        [ 50%] Linking CXX static library libfoo.a
+        /home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/bin/cmake -P CMakeFiles/foo.dir/cmake_clean_target.cmake
+        /home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/foo.dir/link.txt --verbose=1
+        "/usr/bin/gcc-ar-12" qc libfoo.a CMakeFiles/foo.dir/foo.cpp.o
+        "/usr/bin/gcc-ranlib-12" libfoo.a
+        gmake[2]: Leaving directory '/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        [ 50%] Built target foo
+        /usr/bin/gmake  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/depend
+        gmake[2]: Entering directory '/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        cd /home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-CXX/bin && /home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/bin/cmake -E cmake_depends "Unix Makefiles" /home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-CXX/src /home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-CXX/src /home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-CXX/bin /home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-CXX/bin /home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/DependInfo.cmake
+        Dependee "/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/DependInfo.cmake" is newer than depender "/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/depend.internal".
+        Dependee "/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir/depend.internal".
+        Scanning dependencies of target boo
+        gmake[2]: Leaving directory '/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        /usr/bin/gmake  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/build
+        gmake[2]: Entering directory '/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        [ 75%] Building CXX object CMakeFiles/boo.dir/main.cpp.o
+        /usr/bin/c++   -g -flto=auto -fno-fat-lto-objects -o CMakeFiles/boo.dir/main.cpp.o -c /home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp
+        [100%] Linking CXX executable boo
+        /home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/boo.dir/link.txt --verbose=1
+        /usr/bin/c++ -g -flto=auto -fno-fat-lto-objects CMakeFiles/boo.dir/main.cpp.o -o boo  libfoo.a
+        gmake[2]: Leaving directory '/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        [100%] Built target boo
+        gmake[1]: Leaving directory '/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        /home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/bin/cmake -E cmake_progress_start /home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles 0
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CheckIPOSupported.cmake:197 (try_compile)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CheckIPOSupported.cmake:320 (_ipo_run_language_check)"
+      - "cmake/common/compiler_common.cmake:93 (check_ipo_supported)"
+      - "cmake/linux/compilerconfig.cmake:6 (include)"
+      - "CMakeLists.txt:14 (include)"
+    directories:
+      source: "/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-C/src"
+      binary: "/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-C/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-C/bin'
+        
+        Run Build Command(s): /home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile
+        /home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/bin/cmake -S/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-C/src -B/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-C/bin --check-build-system CMakeFiles/Makefile.cmake 0
+        /home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/bin/cmake -E cmake_progress_start /home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles /home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-C/bin//CMakeFiles/progress.marks
+        /usr/bin/gmake  -f CMakeFiles/Makefile2 all
+        gmake[1]: Entering directory '/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-C/bin'
+        /usr/bin/gmake  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/depend
+        gmake[2]: Entering directory '/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-C/bin'
+        cd /home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-C/bin && /home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/bin/cmake -E cmake_depends "Unix Makefiles" /home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-C/src /home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-C/src /home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-C/bin /home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-C/bin /home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/DependInfo.cmake
+        Dependee "/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/DependInfo.cmake" is newer than depender "/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/depend.internal".
+        Dependee "/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/depend.internal".
+        Scanning dependencies of target foo
+        gmake[2]: Leaving directory '/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-C/bin'
+        /usr/bin/gmake  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/build
+        gmake[2]: Entering directory '/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-C/bin'
+        [ 25%] Building C object CMakeFiles/foo.dir/foo.c.o
+        /usr/bin/cc   -g -flto=auto -fno-fat-lto-objects -o CMakeFiles/foo.dir/foo.c.o -c /home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-C/src/foo.c
+        [ 50%] Linking C static library libfoo.a
+        /home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/bin/cmake -P CMakeFiles/foo.dir/cmake_clean_target.cmake
+        /home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/foo.dir/link.txt --verbose=1
+        "/usr/bin/gcc-ar-12" qc libfoo.a CMakeFiles/foo.dir/foo.c.o
+        "/usr/bin/gcc-ranlib-12" libfoo.a
+        gmake[2]: Leaving directory '/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-C/bin'
+        [ 50%] Built target foo
+        /usr/bin/gmake  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/depend
+        gmake[2]: Entering directory '/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-C/bin'
+        cd /home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-C/bin && /home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/bin/cmake -E cmake_depends "Unix Makefiles" /home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-C/src /home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-C/src /home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-C/bin /home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-C/bin /home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/DependInfo.cmake
+        Dependee "/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/DependInfo.cmake" is newer than depender "/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/depend.internal".
+        Dependee "/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/depend.internal".
+        Scanning dependencies of target boo
+        gmake[2]: Leaving directory '/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-C/bin'
+        /usr/bin/gmake  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/build
+        gmake[2]: Entering directory '/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-C/bin'
+        [ 75%] Building C object CMakeFiles/boo.dir/main.c.o
+        /usr/bin/cc   -g -flto=auto -fno-fat-lto-objects -o CMakeFiles/boo.dir/main.c.o -c /home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-C/src/main.c
+        [100%] Linking C executable boo
+        /home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/boo.dir/link.txt --verbose=1
+        /usr/bin/cc -g -flto=auto -fno-fat-lto-objects CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a
+        gmake[2]: Leaving directory '/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-C/bin'
+        [100%] Built target boo
+        gmake[1]: Leaving directory '/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-C/bin'
+        /home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/bin/cmake -E cmake_progress_start /home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles 0
+        
+      exitCode: 0
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "cmake/linux/ecmconfig.cmake:5 (find_package)"
+      - "cmake/linux/defaults.cmake:43 (include)"
+      - "CMakeLists.txt:15 (include)"
+    name: "ECM"
+    configs:
+      -
+        filename: "ECMConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "ecm-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: true
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "ECM"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/pkgRedirects/ECMConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/pkgRedirects/ecm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/gd2bk1ng/ffmpeg-install/ECMConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/gd2bk1ng/ffmpeg-install/ecm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/gd2bk1ng/.local/ECMConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/gd2bk1ng/.local/ecm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/ECMConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/ecm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/ECMConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/ecm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/share/ECM/ECMConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/share/ECM/ecm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/usr/share/ECM/cmake/ECMConfig.cmake"
+      mode: "config"
+      version: "5.103.0"
+    search_context:
+      ENV{PATH}:
+        - "/home/gd2bk1ng/ffmpeg-install/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/snap/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data"
+        - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/FindPkgConfig.cmake:69 (find_program)"
+      - "cmake/finders/FindSIMDe.cmake:36 (find_package)"
+      - "libobs/CMakeLists.txt:10 (find_package)"
+    mode: "program"
+    variable: "PKG_CONFIG_EXECUTABLE"
+    description: "pkg-config executable"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pkg-config"
+      - "pkgconf"
+    candidate_directories:
+      - "/home/gd2bk1ng/ffmpeg-install/bin/"
+      - "/home/gd2bk1ng/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/bin/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/sbin/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/bin/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/sbin/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/home/gd2bk1ng/ffmpeg-install/bin/pkg-config"
+      - "/home/gd2bk1ng/ffmpeg-install/bin/pkgconf"
+      - "/home/gd2bk1ng/.local/bin/pkg-config"
+      - "/home/gd2bk1ng/.local/bin/pkgconf"
+      - "/usr/local/bin/pkg-config"
+      - "/usr/local/bin/pkgconf"
+    found: "/usr/bin/pkg-config"
+    search_context:
+      ENV{PATH}:
+        - "/home/gd2bk1ng/ffmpeg-install/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/snap/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data"
+        - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/FindThreads.cmake:97 (check_c_source_compiles)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "libobs/CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/CMakeScratch/TryCompile-zfAQio"
+      binary: "/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/CMakeScratch/TryCompile-zfAQio"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/gd2bk1ng/obs-atom-build/obs/cmake/common;/home/gd2bk1ng/obs-atom-build/obs/cmake/finders;/home/gd2bk1ng/obs-atom-build/obs/cmake/linux;/usr/share/ECM/modules/;/usr/share/ECM/find-modules/;/usr/share/ECM/kde-modules/"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/CMakeScratch/TryCompile-zfAQio'
+        
+        Run Build Command(s): /home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8c1a0/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_8c1a0.dir/build.make CMakeFiles/cmTC_8c1a0.dir/build
+        gmake[1]: Entering directory '/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/CMakeScratch/TryCompile-zfAQio'
+        Building C object CMakeFiles/cmTC_8c1a0.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu17 -o CMakeFiles/cmTC_8c1a0.dir/src.c.o -c /home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/CMakeScratch/TryCompile-zfAQio/src.c
+        Linking C executable cmTC_8c1a0
+        /home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c1a0.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_8c1a0.dir/src.c.o -o cmTC_8c1a0
+        gmake[1]: Leaving directory '/home/gd2bk1ng/obs-atom-build/build/obs-lean/CMakeFiles/CMakeScratch/TryCompile-zfAQio'
+        
+      exitCode: 0
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/FindPkgConfig.cmake:307 (find_library)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/FindPkgConfig.cmake:357 (_pkg_find_libs)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/FindPkgConfig.cmake:695 (_pkg_recalculate)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/FindPkgConfig.cmake:921 (_pkg_check_modules_internal)"
+      - "cmake/finders/FindFFmpeg.cmake:134 (pkg_search_module)"
+      - "cmake/finders/FindFFmpeg.cmake:279 (ffmpeg_find_component)"
+      - "libobs/CMakeLists.txt:13 (find_package)"
+    mode: "library"
+    variable: "pkgcfg_lib_PC_FFmpeg_avformat_avformat"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avformat"
+    candidate_directories:
+      - "/usr/lib/i386-linux-gnu/"
+    found: "/usr/lib/i386-linux-gnu/libavformat.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/gd2bk1ng/ffmpeg-install/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/snap/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data"
+        - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "cmake/finders/FindFFmpeg.cmake:138 (find_path)"
+      - "cmake/finders/FindFFmpeg.cmake:279 (ffmpeg_find_component)"
+      - "libobs/CMakeLists.txt:13 (find_package)"
+    mode: "path"
+    variable: "FFmpeg_avformat_INCLUDE_DIR"
+    description: "FFmpeg component avformat include directory"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "libavformat/avformat.h"
+      - "libavformat/version.h"
+    candidate_directories:
+      - "/usr/include/i386-linux-gnu/"
+      - "/home/gd2bk1ng/ffmpeg-install/bin/"
+      - "/home/gd2bk1ng/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/usr/local/include/i386-linux-gnu/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/i386-linux-gnu/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/i386-linux-gnu/"
+      - "/include/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/include/i386-linux-gnu/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/include/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/include/i386-linux-gnu/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/include/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/"
+      - "/usr/X11R6/include/i386-linux-gnu/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/i386-linux-gnu/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/i386-linux-gnu/"
+      - "/opt/include/"
+      - "/opt/"
+      - "/usr/include/X11/"
+      - "/usr/include/"
+      - "/usr/local/include/"
+    found: "/usr/include/i386-linux-gnu/"
+    search_context:
+      ENV{PATH}:
+        - "/home/gd2bk1ng/ffmpeg-install/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/snap/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data"
+        - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "cmake/finders/FindFFmpeg.cmake:157 (find_library)"
+      - "cmake/finders/FindFFmpeg.cmake:279 (ffmpeg_find_component)"
+      - "libobs/CMakeLists.txt:13 (find_package)"
+    mode: "library"
+    variable: "FFmpeg_avformat_LIBRARY"
+    description: "FFmpeg component avformat location"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "libavformat"
+      - "avformat"
+    candidate_directories:
+      - "/usr/lib/i386-linux-gnu/"
+      - "/home/gd2bk1ng/ffmpeg-install/bin/"
+      - "/home/gd2bk1ng/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/usr/local/lib/i386-linux-gnu/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/i386-linux-gnu/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib/i386-linux-gnu/"
+      - "/lib/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/lib/i386-linux-gnu/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/lib/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/lib/i386-linux-gnu/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/lib/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/"
+      - "/usr/X11R6/lib/i386-linux-gnu/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/i386-linux-gnu/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/"
+      - "/opt/lib/i386-linux-gnu/"
+      - "/opt/lib/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+      - "/usr/lib/"
+      - "/usr/local/lib/"
+    searched_directories:
+      - "/usr/lib/i386-linux-gnu/"
+      - "/home/gd2bk1ng/ffmpeg-install/bin/"
+      - "/home/gd2bk1ng/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/usr/local/lib/i386-linux-gnu/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/i386-linux-gnu/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib/i386-linux-gnu/"
+      - "/lib/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/lib/i386-linux-gnu/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/lib/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/lib/i386-linux-gnu/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/lib/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/"
+      - "/usr/X11R6/lib/i386-linux-gnu/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/i386-linux-gnu/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/"
+      - "/opt/lib/i386-linux-gnu/"
+      - "/opt/lib/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+      - "/usr/lib/"
+      - "/usr/local/lib/"
+    found: "/usr/lib/i386-linux-gnu/libavformat.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/gd2bk1ng/ffmpeg-install/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/snap/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data"
+        - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/FindPkgConfig.cmake:307 (find_library)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/FindPkgConfig.cmake:357 (_pkg_find_libs)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/FindPkgConfig.cmake:695 (_pkg_recalculate)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/FindPkgConfig.cmake:921 (_pkg_check_modules_internal)"
+      - "cmake/finders/FindFFmpeg.cmake:134 (pkg_search_module)"
+      - "cmake/finders/FindFFmpeg.cmake:279 (ffmpeg_find_component)"
+      - "libobs/CMakeLists.txt:13 (find_package)"
+    mode: "library"
+    variable: "pkgcfg_lib_PC_FFmpeg_avutil_avutil"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avutil"
+    candidate_directories:
+      - "/usr/lib/i386-linux-gnu/"
+    found: "/usr/lib/i386-linux-gnu/libavutil.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/gd2bk1ng/ffmpeg-install/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/snap/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data"
+        - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "cmake/finders/FindFFmpeg.cmake:138 (find_path)"
+      - "cmake/finders/FindFFmpeg.cmake:279 (ffmpeg_find_component)"
+      - "libobs/CMakeLists.txt:13 (find_package)"
+    mode: "path"
+    variable: "FFmpeg_avutil_INCLUDE_DIR"
+    description: "FFmpeg component avutil include directory"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "libavutil/avutil.h"
+      - "libavutil/version.h"
+    candidate_directories:
+      - "/usr/include/i386-linux-gnu/"
+      - "/home/gd2bk1ng/ffmpeg-install/bin/"
+      - "/home/gd2bk1ng/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/usr/local/include/i386-linux-gnu/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/i386-linux-gnu/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/i386-linux-gnu/"
+      - "/include/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/include/i386-linux-gnu/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/include/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/include/i386-linux-gnu/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/include/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/"
+      - "/usr/X11R6/include/i386-linux-gnu/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/i386-linux-gnu/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/i386-linux-gnu/"
+      - "/opt/include/"
+      - "/opt/"
+      - "/usr/include/X11/"
+      - "/usr/include/"
+      - "/usr/local/include/"
+    found: "/usr/include/i386-linux-gnu/"
+    search_context:
+      ENV{PATH}:
+        - "/home/gd2bk1ng/ffmpeg-install/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/snap/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data"
+        - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "cmake/finders/FindFFmpeg.cmake:157 (find_library)"
+      - "cmake/finders/FindFFmpeg.cmake:279 (ffmpeg_find_component)"
+      - "libobs/CMakeLists.txt:13 (find_package)"
+    mode: "library"
+    variable: "FFmpeg_avutil_LIBRARY"
+    description: "FFmpeg component avutil location"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "libavutil"
+      - "avutil"
+    candidate_directories:
+      - "/usr/lib/i386-linux-gnu/"
+      - "/home/gd2bk1ng/ffmpeg-install/bin/"
+      - "/home/gd2bk1ng/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/usr/local/lib/i386-linux-gnu/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/i386-linux-gnu/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib/i386-linux-gnu/"
+      - "/lib/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/lib/i386-linux-gnu/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/lib/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/lib/i386-linux-gnu/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/lib/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/"
+      - "/usr/X11R6/lib/i386-linux-gnu/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/i386-linux-gnu/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/"
+      - "/opt/lib/i386-linux-gnu/"
+      - "/opt/lib/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+      - "/usr/lib/"
+      - "/usr/local/lib/"
+    searched_directories:
+      - "/usr/lib/i386-linux-gnu/"
+      - "/home/gd2bk1ng/ffmpeg-install/bin/"
+      - "/home/gd2bk1ng/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/usr/local/lib/i386-linux-gnu/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/i386-linux-gnu/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib/i386-linux-gnu/"
+      - "/lib/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/lib/i386-linux-gnu/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/lib/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/lib/i386-linux-gnu/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/lib/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/"
+      - "/usr/X11R6/lib/i386-linux-gnu/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/i386-linux-gnu/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/"
+      - "/opt/lib/i386-linux-gnu/"
+      - "/opt/lib/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+      - "/usr/lib/"
+      - "/usr/local/lib/"
+    found: "/usr/lib/i386-linux-gnu/libavutil.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/gd2bk1ng/ffmpeg-install/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/snap/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data"
+        - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/FindPkgConfig.cmake:307 (find_library)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/FindPkgConfig.cmake:357 (_pkg_find_libs)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/FindPkgConfig.cmake:695 (_pkg_recalculate)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/FindPkgConfig.cmake:921 (_pkg_check_modules_internal)"
+      - "cmake/finders/FindFFmpeg.cmake:134 (pkg_search_module)"
+      - "cmake/finders/FindFFmpeg.cmake:279 (ffmpeg_find_component)"
+      - "libobs/CMakeLists.txt:13 (find_package)"
+    mode: "library"
+    variable: "pkgcfg_lib_PC_FFmpeg_swscale_swscale"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "swscale"
+    candidate_directories:
+      - "/usr/lib/i386-linux-gnu/"
+    found: "/usr/lib/i386-linux-gnu/libswscale.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/gd2bk1ng/ffmpeg-install/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/snap/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data"
+        - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "cmake/finders/FindFFmpeg.cmake:138 (find_path)"
+      - "cmake/finders/FindFFmpeg.cmake:279 (ffmpeg_find_component)"
+      - "libobs/CMakeLists.txt:13 (find_package)"
+    mode: "path"
+    variable: "FFmpeg_swscale_INCLUDE_DIR"
+    description: "FFmpeg component swscale include directory"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "libswscale/swscale.h"
+      - "libswscale/version.h"
+    candidate_directories:
+      - "/usr/include/i386-linux-gnu/"
+      - "/home/gd2bk1ng/ffmpeg-install/bin/"
+      - "/home/gd2bk1ng/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/usr/local/include/i386-linux-gnu/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/i386-linux-gnu/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/i386-linux-gnu/"
+      - "/include/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/include/i386-linux-gnu/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/include/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/include/i386-linux-gnu/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/include/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/"
+      - "/usr/X11R6/include/i386-linux-gnu/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/i386-linux-gnu/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/i386-linux-gnu/"
+      - "/opt/include/"
+      - "/opt/"
+      - "/usr/include/X11/"
+      - "/usr/include/"
+      - "/usr/local/include/"
+    found: "/usr/include/i386-linux-gnu/"
+    search_context:
+      ENV{PATH}:
+        - "/home/gd2bk1ng/ffmpeg-install/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/snap/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data"
+        - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "cmake/finders/FindFFmpeg.cmake:157 (find_library)"
+      - "cmake/finders/FindFFmpeg.cmake:279 (ffmpeg_find_component)"
+      - "libobs/CMakeLists.txt:13 (find_package)"
+    mode: "library"
+    variable: "FFmpeg_swscale_LIBRARY"
+    description: "FFmpeg component swscale location"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "libswscale"
+      - "swscale"
+    candidate_directories:
+      - "/usr/lib/i386-linux-gnu/"
+      - "/home/gd2bk1ng/ffmpeg-install/bin/"
+      - "/home/gd2bk1ng/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/usr/local/lib/i386-linux-gnu/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/i386-linux-gnu/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib/i386-linux-gnu/"
+      - "/lib/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/lib/i386-linux-gnu/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/lib/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/lib/i386-linux-gnu/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/lib/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/"
+      - "/usr/X11R6/lib/i386-linux-gnu/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/i386-linux-gnu/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/"
+      - "/opt/lib/i386-linux-gnu/"
+      - "/opt/lib/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+      - "/usr/lib/"
+      - "/usr/local/lib/"
+    searched_directories:
+      - "/usr/lib/i386-linux-gnu/"
+      - "/home/gd2bk1ng/ffmpeg-install/bin/"
+      - "/home/gd2bk1ng/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/usr/local/lib/i386-linux-gnu/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/i386-linux-gnu/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib/i386-linux-gnu/"
+      - "/lib/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/lib/i386-linux-gnu/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/lib/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/lib/i386-linux-gnu/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/lib/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/"
+      - "/usr/X11R6/lib/i386-linux-gnu/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/i386-linux-gnu/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/"
+      - "/opt/lib/i386-linux-gnu/"
+      - "/opt/lib/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+      - "/usr/lib/"
+      - "/usr/local/lib/"
+    found: "/usr/lib/i386-linux-gnu/libswscale.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/gd2bk1ng/ffmpeg-install/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/snap/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data"
+        - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/FindPkgConfig.cmake:307 (find_library)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/FindPkgConfig.cmake:357 (_pkg_find_libs)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/FindPkgConfig.cmake:695 (_pkg_recalculate)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/FindPkgConfig.cmake:921 (_pkg_check_modules_internal)"
+      - "cmake/finders/FindFFmpeg.cmake:134 (pkg_search_module)"
+      - "cmake/finders/FindFFmpeg.cmake:279 (ffmpeg_find_component)"
+      - "libobs/CMakeLists.txt:13 (find_package)"
+    mode: "library"
+    variable: "pkgcfg_lib_PC_FFmpeg_swresample_swresample"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "swresample"
+    candidate_directories:
+      - "/usr/lib/i386-linux-gnu/"
+    found: "/usr/lib/i386-linux-gnu/libswresample.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/gd2bk1ng/ffmpeg-install/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/snap/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data"
+        - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "cmake/finders/FindFFmpeg.cmake:138 (find_path)"
+      - "cmake/finders/FindFFmpeg.cmake:279 (ffmpeg_find_component)"
+      - "libobs/CMakeLists.txt:13 (find_package)"
+    mode: "path"
+    variable: "FFmpeg_swresample_INCLUDE_DIR"
+    description: "FFmpeg component swresample include directory"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "libswresample/swresample.h"
+      - "libswresample/version.h"
+    candidate_directories:
+      - "/usr/include/i386-linux-gnu/"
+      - "/home/gd2bk1ng/ffmpeg-install/bin/"
+      - "/home/gd2bk1ng/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/usr/local/include/i386-linux-gnu/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/i386-linux-gnu/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/i386-linux-gnu/"
+      - "/include/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/include/i386-linux-gnu/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/include/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/include/i386-linux-gnu/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/include/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/"
+      - "/usr/X11R6/include/i386-linux-gnu/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/i386-linux-gnu/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/i386-linux-gnu/"
+      - "/opt/include/"
+      - "/opt/"
+      - "/usr/include/X11/"
+      - "/usr/include/"
+      - "/usr/local/include/"
+    found: "/usr/include/i386-linux-gnu/"
+    search_context:
+      ENV{PATH}:
+        - "/home/gd2bk1ng/ffmpeg-install/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/snap/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data"
+        - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "cmake/finders/FindFFmpeg.cmake:157 (find_library)"
+      - "cmake/finders/FindFFmpeg.cmake:279 (ffmpeg_find_component)"
+      - "libobs/CMakeLists.txt:13 (find_package)"
+    mode: "library"
+    variable: "FFmpeg_swresample_LIBRARY"
+    description: "FFmpeg component swresample location"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "libswresample"
+      - "swresample"
+    candidate_directories:
+      - "/usr/lib/i386-linux-gnu/"
+      - "/home/gd2bk1ng/ffmpeg-install/bin/"
+      - "/home/gd2bk1ng/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/usr/local/lib/i386-linux-gnu/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/i386-linux-gnu/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib/i386-linux-gnu/"
+      - "/lib/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/lib/i386-linux-gnu/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/lib/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/lib/i386-linux-gnu/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/lib/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/"
+      - "/usr/X11R6/lib/i386-linux-gnu/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/i386-linux-gnu/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/"
+      - "/opt/lib/i386-linux-gnu/"
+      - "/opt/lib/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+      - "/usr/lib/"
+      - "/usr/local/lib/"
+    searched_directories:
+      - "/usr/lib/i386-linux-gnu/"
+      - "/home/gd2bk1ng/ffmpeg-install/bin/"
+      - "/home/gd2bk1ng/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/usr/local/lib/i386-linux-gnu/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/i386-linux-gnu/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib/i386-linux-gnu/"
+      - "/lib/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/lib/i386-linux-gnu/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/lib/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/lib/i386-linux-gnu/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/lib/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/"
+      - "/usr/X11R6/lib/i386-linux-gnu/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/i386-linux-gnu/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/"
+      - "/opt/lib/i386-linux-gnu/"
+      - "/opt/lib/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+      - "/usr/lib/"
+      - "/usr/local/lib/"
+    found: "/usr/lib/i386-linux-gnu/libswresample.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/gd2bk1ng/ffmpeg-install/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/snap/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data"
+        - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/FindPkgConfig.cmake:307 (find_library)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/FindPkgConfig.cmake:357 (_pkg_find_libs)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/FindPkgConfig.cmake:695 (_pkg_recalculate)"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/FindPkgConfig.cmake:921 (_pkg_check_modules_internal)"
+      - "cmake/finders/FindFFmpeg.cmake:134 (pkg_search_module)"
+      - "cmake/finders/FindFFmpeg.cmake:279 (ffmpeg_find_component)"
+      - "libobs/CMakeLists.txt:13 (find_package)"
+    mode: "library"
+    variable: "pkgcfg_lib_PC_FFmpeg_avcodec_avcodec"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "avcodec"
+    candidate_directories:
+      - "/usr/lib/i386-linux-gnu/"
+    found: "/usr/lib/i386-linux-gnu/libavcodec.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/gd2bk1ng/ffmpeg-install/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/snap/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data"
+        - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "cmake/finders/FindFFmpeg.cmake:138 (find_path)"
+      - "cmake/finders/FindFFmpeg.cmake:279 (ffmpeg_find_component)"
+      - "libobs/CMakeLists.txt:13 (find_package)"
+    mode: "path"
+    variable: "FFmpeg_avcodec_INCLUDE_DIR"
+    description: "FFmpeg component avcodec include directory"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "libavcodec/avcodec.h"
+      - "libavcodec/version.h"
+    candidate_directories:
+      - "/usr/include/i386-linux-gnu/"
+      - "/home/gd2bk1ng/ffmpeg-install/bin/"
+      - "/home/gd2bk1ng/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/usr/local/include/i386-linux-gnu/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/i386-linux-gnu/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/i386-linux-gnu/"
+      - "/include/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/include/i386-linux-gnu/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/include/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/include/i386-linux-gnu/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/include/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/"
+      - "/usr/X11R6/include/i386-linux-gnu/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/i386-linux-gnu/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/i386-linux-gnu/"
+      - "/opt/include/"
+      - "/opt/"
+      - "/usr/include/X11/"
+      - "/usr/include/"
+      - "/usr/local/include/"
+    found: "/usr/include/i386-linux-gnu/"
+    search_context:
+      ENV{PATH}:
+        - "/home/gd2bk1ng/ffmpeg-install/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/snap/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data"
+        - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "cmake/finders/FindFFmpeg.cmake:157 (find_library)"
+      - "cmake/finders/FindFFmpeg.cmake:279 (ffmpeg_find_component)"
+      - "libobs/CMakeLists.txt:13 (find_package)"
+    mode: "library"
+    variable: "FFmpeg_avcodec_LIBRARY"
+    description: "FFmpeg component avcodec location"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "libavcodec"
+      - "avcodec"
+    candidate_directories:
+      - "/usr/lib/i386-linux-gnu/"
+      - "/home/gd2bk1ng/ffmpeg-install/bin/"
+      - "/home/gd2bk1ng/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/usr/local/lib/i386-linux-gnu/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/i386-linux-gnu/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib/i386-linux-gnu/"
+      - "/lib/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/lib/i386-linux-gnu/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/lib/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/lib/i386-linux-gnu/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/lib/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/"
+      - "/usr/X11R6/lib/i386-linux-gnu/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/i386-linux-gnu/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/"
+      - "/opt/lib/i386-linux-gnu/"
+      - "/opt/lib/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+      - "/usr/lib/"
+      - "/usr/local/lib/"
+    searched_directories:
+      - "/usr/lib/i386-linux-gnu/"
+      - "/home/gd2bk1ng/ffmpeg-install/bin/"
+      - "/home/gd2bk1ng/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/games/"
+      - "/usr/games/"
+      - "/snap/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/usr/local/lib/i386-linux-gnu/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/i386-linux-gnu/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib/i386-linux-gnu/"
+      - "/lib/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/lib/i386-linux-gnu/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/lib/"
+      - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/lib/i386-linux-gnu/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/lib/"
+      - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean/"
+      - "/usr/X11R6/lib/i386-linux-gnu/"
+      - "/usr/X11R6/lib/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/lib/i386-linux-gnu/"
+      - "/usr/pkg/lib/"
+      - "/usr/pkg/"
+      - "/opt/lib/i386-linux-gnu/"
+      - "/opt/lib/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+      - "/usr/lib/"
+      - "/usr/local/lib/"
+    found: "/usr/lib/i386-linux-gnu/libavcodec.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/gd2bk1ng/ffmpeg-install/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/home/gd2bk1ng/.local/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/games"
+        - "/usr/games"
+        - "/snap/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data"
+        - "/home/gd2bk1ng/obs-atom-build/build/obs-install-lean"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+...

@@ -1,0 +1,4 @@
+/home/gd2bk1ng/obs-atom-build/build/obs/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir
+/home/gd2bk1ng/obs-atom-build/build/obs/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir
+/home/gd2bk1ng/obs-atom-build/build/obs/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/edit_cache.dir
+/home/gd2bk1ng/obs-atom-build/build/obs/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,63 @@
+[2025-09-04 07:45:56,119] INFO: Selected build mode: lean
+[2025-09-04 07:45:56,134] INFO: FFmpeg pkg-config @ /home/gd2bk1ng/ffmpeg-install/lib/pkgconfig -> FOUND
+[2025-09-04 07:45:56,138] INFO: SRT pkg-config @ /home/gd2bk1ng/srt-install/lib/pkgconfig -> FOUND
+[2025-09-04 07:45:56,143] INFO: RIST pkg-config @ /home/gd2bk1ng/rist-install/lib/pkgconfig -> FOUND
+[2025-09-04 07:45:56,145] INFO: Configuring CMake...
+[2025-09-04 07:45:56,146] INFO: RUN: cmake /home/gd2bk1ng/obs-atom-build/obs -DCMAKE_INSTALL_PREFIX=/home/gd2bk1ng/obs-atom-build/build/obs-install-lean -DCMAKE_BUILD_TYPE=Release -DBUILD_BROWSER=OFF -DENABLE_AJA=OFF -DENABLE_VLC=OFF -DENABLE_SPEEXDSP=OFF -DENABLE_JACK=OFF -DENABLE_PULSEAUDIO=ON -DENABLE_ALSA=ON -DENABLE_NEW_MPEGTS_OUTPUT=ON -DENABLE_WEBRTC=OFF
+[2025-09-04 07:46:00,763] INFO: CMake Warning (dev) at cmake/common/versionconfig.cmake:66 (message):
+[2025-09-04 07:46:00,764] INFO:   
+[2025-09-04 07:46:00,764] INFO:   ******************************************************************************
+[2025-09-04 07:46:00,765] INFO: 
+[2025-09-04 07:46:00,765] INFO:     + OBS-Studio - Beta detected, OBS_VERSION is now: 32.0.0-beta1-14-g1eb6bdee5
+[2025-09-04 07:46:00,766] INFO: 
+[2025-09-04 07:46:00,767] INFO:   
+[2025-09-04 07:46:00,767] INFO:   ******************************************************************************
+[2025-09-04 07:46:00,768] INFO: Call Stack (most recent call first):
+[2025-09-04 07:46:00,771] INFO:   cmake/common/bootstrap.cmake:60 (include)
+[2025-09-04 07:46:00,772] INFO:   CMakeLists.txt:3 (include)
+[2025-09-04 07:46:00,772] INFO: This warning is for project developers.  Use -Wno-dev to suppress it.
+[2025-09-04 07:46:00,773] INFO: 
+[2025-09-04 07:46:05,926] INFO: -- The C compiler identification is GNU 12.2.0
+[2025-09-04 07:46:09,638] INFO: -- The CXX compiler identification is GNU 12.2.0
+[2025-09-04 07:46:09,887] INFO: -- Detecting C compiler ABI info
+[2025-09-04 07:46:10,869] INFO: -- Detecting C compiler ABI info - done
+[2025-09-04 07:46:11,162] INFO: -- Check for working C compiler: /usr/bin/cc - skipped
+[2025-09-04 07:46:11,171] INFO: -- Detecting C compile features
+[2025-09-04 07:46:11,179] INFO: -- Detecting C compile features - done
+[2025-09-04 07:46:11,437] INFO: -- Detecting CXX compiler ABI info
+[2025-09-04 07:46:12,283] INFO: -- Detecting CXX compiler ABI info - done
+[2025-09-04 07:46:12,553] INFO: -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2025-09-04 07:46:12,559] INFO: -- Detecting CXX compile features
+[2025-09-04 07:46:12,572] INFO: -- Detecting CXX compile features - done
+[2025-09-04 07:46:12,693] INFO: -- Checking for interprocedural optimization support
+[2025-09-04 07:46:19,403] INFO: -- Checking for interprocedural optimization support - available
+[2025-09-04 07:46:19,404] INFO: -- Checking for interprocedural optimization support - enabled [Release, MinSizeRel]
+[2025-09-04 07:46:20,538] INFO: CMake Warning (dev) at cmake/finders/FindSIMDe.cmake:67 (message):
+[2025-09-04 07:46:20,539] INFO:   Failed to find SIMD Everywhere version.
+[2025-09-04 07:46:20,540] INFO: Call Stack (most recent call first):
+[2025-09-04 07:46:20,540] INFO:   libobs/CMakeLists.txt:10 (find_package)
+[2025-09-04 07:46:20,541] INFO: This warning is for project developers.  Use -Wno-dev to suppress it.
+[2025-09-04 07:46:20,541] INFO: 
+[2025-09-04 07:46:20,546] INFO: CMake Error at /home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/FindPackageHandleStandardArgs.cmake:227 (message):
+[2025-09-04 07:46:20,547] INFO:   Could NOT find SIMDe (missing: SIMDe_INCLUDE_DIR) (found version "0.0.0")
+[2025-09-04 07:46:20,547] INFO: 
+[2025-09-04 07:46:20,548] INFO:       Reason given by package: Ensure SIMD Everywhere is available in local library paths.
+[2025-09-04 07:46:20,548] INFO: 
+[2025-09-04 07:46:20,548] INFO: Call Stack (most recent call first):
+[2025-09-04 07:46:20,549] INFO:   /home/gd2bk1ng/.local/pipx/venvs/cmake/lib/python3.11/site-packages/cmake/data/share/cmake-4.1/Modules/FindPackageHandleStandardArgs.cmake:591 (_FPHSA_FAILURE_MESSAGE)
+[2025-09-04 07:46:20,549] INFO:   cmake/finders/FindSIMDe.cmake:78 (find_package_handle_standard_args)
+[2025-09-04 07:46:20,550] INFO:   libobs/CMakeLists.txt:10 (find_package)
+[2025-09-04 07:46:20,550] INFO: 
+[2025-09-04 07:46:20,550] INFO: 
+[2025-09-04 07:46:20,551] INFO: -- Configuring incomplete, errors occurred!
+[2025-09-04 07:46:20,606] WARNING: CMake failed — if WebRTC was enabled we will retry with it disabled.
+[2025-09-04 07:46:20,607] ERROR: Build failed
+Traceback (most recent call last):
+  File "/home/gd2bk1ng/obs-atom-build/build_obs_atom.py", line 360, in main
+    build_obs(mode)
+  File "/home/gd2bk1ng/obs-atom-build/build_obs_atom.py", line 198, in build_obs
+    run(["cmake", str(SRC_OBS)] + flags, cwd=str(BUILD_DIR), env=env)
+  File "/home/gd2bk1ng/obs-atom-build/build_obs_atom.py", line 70, in run
+    raise RuntimeError(f"Command failed (rc={rc}): {' '.join(cmd_list)}")
+RuntimeError: Command failed (rc=1): cmake /home/gd2bk1ng/obs-atom-build/obs -DCMAKE_INSTALL_PREFIX=/home/gd2bk1ng/obs-atom-build/build/obs-install-lean -DCMAKE_BUILD_TYPE=Release -DBUILD_BROWSER=OFF -DENABLE_AJA=OFF -DENABLE_VLC=OFF -DENABLE_SPEEXDSP=OFF -DENABLE_JACK=OFF -DENABLE_PULSEAUDIO=ON -DENABLE_ALSA=ON -DENABLE_NEW_MPEGTS_OUTPUT=ON -DENABLE_WEBRTC=OFF
+[2025-09-04 07:46:20,677] ERROR: Build failed: Command failed (rc=1): cmake /home/gd2bk1ng/obs-atom-build/obs -DCMAKE_INSTALL_PREFIX=/home/gd2bk1ng/obs-atom-build/build/obs-install-lean -DCMAKE_BUILD_TYPE=Release -DBUILD_BROWSER=OFF -DENABLE_AJA=OFF -DENABLE_VLC=OFF -DENABLE_SPEEXDSP=OFF -DENABLE_JACK=OFF -DENABLE_PULSEAUDIO=ON -DENABLE_ALSA=ON -DENABLE_NEW_MPEGTS_OUTPUT=ON -DENABLE_WEBRTC=OFF

@@ -1,0 +1,21 @@
+============================================================
+OBS-Atom — So powerful, it can run on 1GB! - GD2BK1NG 👑
+============================================================
+Choose build mode:
+  1) lean  (ultra-lean for low-power machines)
+  2) enhanced  (full features)
+  3) auto  (script decides)
+Select [1/2/3]: [INFO] Selected build mode: lean
+[INFO] Installing SIMDe (SIMD Everywhere)...
+[CMD] git clone https://github.com/simd-everywhere/simde.git /home/gd2bk1ng/obs-atom-build/deps/simde
+[CMD] cmake /home/gd2bk1ng/obs-atom-build/obs -DCMAKE_INSTALL_PREFIX=/home/gd2bk1ng/obs-atom-build/build/obs-install-lean -DCMAKE_BUILD_TYPE=Release -DBUILD_BROWSER=OFF -DENABLE_AJA=OFF -DENABLE_VLC=OFF -DENABLE_SPEEXDSP=OFF -DENABLE_JACK=OFF -DENABLE_PULSEAUDIO=ON -DENABLE_ALSA=ON -DENABLE_NEW_MPEGTS_OUTPUT=ON -DENABLE_WEBRTC=OFF -DSIMDe_INCLUDE_DIR=/home/gd2bk1ng/obs-atom-build/deps/simde
+Traceback (most recent call last):
+  File "/home/gd2bk1ng/obs-atom-build/build_obs_atom.py", line 112, in <module>
+    main()
+  File "/home/gd2bk1ng/obs-atom-build/build_obs_atom.py", line 107, in main
+    cmake_build(mode)
+  File "/home/gd2bk1ng/obs-atom-build/build_obs_atom.py", line 70, in cmake_build
+    run_cmd(cmake_cmd, cwd=build_subdir)
+  File "/home/gd2bk1ng/obs-atom-build/build_obs_atom.py", line 31, in run_cmd
+    raise RuntimeError(f"Command failed (rc={result.returncode}): {' '.join(cmd)}")
+RuntimeError: Command failed (rc=1): cmake /home/gd2bk1ng/obs-atom-build/obs -DCMAKE_INSTALL_PREFIX=/home/gd2bk1ng/obs-atom-build/build/obs-install-lean -DCMAKE_BUILD_TYPE=Release -DBUILD_BROWSER=OFF -DENABLE_AJA=OFF -DENABLE_VLC=OFF -DENABLE_SPEEXDSP=OFF -DENABLE_JACK=OFF -DENABLE_PULSEAUDIO=ON -DENABLE_ALSA=ON -DENABLE_NEW_MPEGTS_OUTPUT=ON -DENABLE_WEBRTC=OFF -DSIMDe_INCLUDE_DIR=/home/gd2bk1ng/obs-atom-build/deps/simde
