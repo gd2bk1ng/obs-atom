@@ -10,7 +10,17 @@ The first **fully decentralized, open-source, AI-powered content engine** design
 
 ![Image](https://github.com/user-attachments/assets/1f3e159b-c99e-476b-b1f4-03159c949336)
 
+
+
 ## 🚀 What is OBS-Atom?
+
+> **“Streaming, reimagined for older hardware & autotune for anything new out there now.”**  
+
+**OBS-Atom** is a streamlined, performance-tuned version of [OBS Studio](https://obsproject.com/) — purpose-built for legacy laptops like the Acer Aspire One (Atom CPU, 2GB RAM).  
+
+- 🎥 Smooth streaming to **YouTube, Twitch, Facebook, TikTok** at **720p / 30fps**  
+- 🖥️ **Tray integration**, **auto-tune setup**, **portable builds**  
+- 🔒 **Signed packages & certificates** for trusted installs  
 
 OBS-Atom is more than streaming software — it’s a **creative ecosystem**.  
 We’re building the **next-generation content engine** where creators can:
@@ -98,6 +108,38 @@ OBS-Atom is our red carpet rollout into the **next era of content** —
 where creators control their tools, their revenue, and their future.  
 
 > **Welcome to the movement..👑 Welcome to OBS-Atom. &#9883;**
+
+## 📦 Installation  
+
+### Linux (.deb)  
+
+sudo dpkg -i obs-atom-4.2.0.deb
+
+### Optional APT repo for updated:
+
+echo "deb [trusted=yes] https://github.com/gd2bk1ng/obs-atom/releases/download stable main" | sudo tee /etc/apt/sources.list.d/obs-atom.list
+sudo apt update
+sudo apt install obs-atom
+
+### Linux (portable)
+
+echo "deb [trusted=yes] https://github.com/gd2bk1ng/obs-atom/releases/download stable main" | sudo tee /etc/apt/sources.list.d/obs-atom.list
+sudo apt update
+sudo apt install obs-atom
+
+### Windows (.exe installer)
+
+Run OBS-Atom-4.2.0-windows.exe
+
+### Windows (portable)
+
+Extract:
+OBS-Atom-4.2.0-portable-windows.zip -> run obs-atom.exe
+
+##  Credits
+
+Developed by Alex Roussinov a.k.a. (GD2BK1NG)
+Special thanks to everyone in open-source OBS community.
 
 [![Website](https://img.shields.io/badge/🌍_Website-Coming_Soon-blueviolet)](#) 
 [![Docs](https://img.shields.io/badge/📖_Documentation-in_progress-orange)](#)
