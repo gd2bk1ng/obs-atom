@@ -1,0 +1,40 @@
+# -------------------------------------------------
+#   OBS-Atom Commit Template
+# -------------------------------------------------
+# Format: <type>(<scope>): <short summary>
+#
+# Types:
+#   feat     - new feature
+#   fix      - bug fix
+#   chore    - maintenance, tooling, deps
+#   docs     - documentation only
+#   style    - formatting, missing semi colons, etc.
+#   refactor - code change without feature/bug fix
+#   test     - adding or fixing tests
+#   build    - packaging, CI/CD, release changes
+#
+# Scopes: ui, core, packaging, docs, ci, deps, etc.
+#
+# Example: feat(ui): add tray menu auto-detection
+#
+# -------------------------------------------------
+# Short summary (max ~72 chars):
+# -------------------------------------------------
+<type>(<scope>): <summary>
+
+# -------------------------------------------------
+# Extended description (wrap at ~72 chars per line):
+# -------------------------------------------------
+# - What changed?
+# - Why did it change?
+# - Any breaking changes or notes?
+# -------------------------------------------------
+<extended description here>
+
+# -------------------------------------------------
+# Footer (issues, sign-off, co-authors, etc.)
+# -------------------------------------------------
+# Closes: #123
+# Signed-off-by: Alex Roussinov a.k.a. (gd2bk1ng)
+<gd2bk1ng@proton.me> 
+ig
