@@ -10,8 +10,6 @@ The first **fully decentralized, open-source, AI-powered content engine** design
 
 ![Image](https://github.com/user-attachments/assets/1f3e159b-c99e-476b-b1f4-03159c949336)
 
-
-
 ## 🚀 What is OBS-Atom?
 
 > **“Streaming, reimagined for older hardware & autotune for anything new out there now.”**  
@@ -135,6 +133,29 @@ Run OBS-Atom-4.2.0-windows.exe
 
 Extract:
 OBS-Atom-4.2.0-portable-windows.zip -> run obs-atom.exe
+
+## 🚀 Quick Start Guide
+
+1. **Install OBS-Atom**
+   - On Linux (Debian/Ubuntu):
+     ```bash
+     sudo apt update
+     sudo apt install ./OBS-Atom-4.2.0-linux.deb
+     ```
+   - Or download the portable `.zip` and run directly.
+   - On Windows: download `OBS-Atom-4.2.0-windows.exe` or the portable `.zip`.
+
+2. **First Run Setup**
+   - Launch `obs-atom` from your applications menu (Linux) or Start Menu (Windows).
+   - The setup wizard will:
+     - Detect system specs and auto-optimize.
+     - Enable default noise suppression for audio.
+     - Offer theme selection (Royal Black & Gold, plus 2 more).
+
+3. **Streaming**
+   - Add your scenes and sources like regular OBS.
+   - Enable multi-stream if you want to broadcast to Twitch + YouTube simultaneously.
+   - For best results, connect via Ethernet instead of Wi-Fi.
 
 ##  Credits
 
